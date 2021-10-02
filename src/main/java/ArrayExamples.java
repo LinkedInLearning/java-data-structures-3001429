@@ -10,7 +10,7 @@ public class ArrayExamples {
     weekdays[0] = "Monday";
     System.out.println(Arrays.toString(weekdays));
 
-    weekdays = new String[]{"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"};
+    weekdays = new String[]{"Mon", "Tue", "Wed"};
     System.out.println(Arrays.toString(weekdays));
 
     for(String day : weekdays) {
