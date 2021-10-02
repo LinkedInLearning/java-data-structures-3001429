@@ -20,13 +20,7 @@ public class ArrayExamples {
     for(int i = 0; i < weekdays.length; i++) {
       weekdays[i] = weekdays[i].toUpperCase();
     }
-
     System.out.println(Arrays.toString(weekdays));
-
-    int[][] openingHours = new int[7][2];
-    openingHours[0][0] = 9;
-    openingHours[0][1] = 5;
-    System.out.println(Arrays.deepToString(openingHours));
 
   }
 
