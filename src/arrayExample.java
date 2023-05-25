@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class arrayExample{
     public static void main(String[] args){
-        String[] cars = new String[7];
+        String[] cars = new String[]{"Volvo", "BMW", "Ford", "Mazda"};
         // {"Volvo", "BMW", "Ford", "Mazda"};
         System.out.println(Arrays.toString(cars));
     }
